@@ -1,11 +1,11 @@
-# DoctorGPT v1 🏥🧑‍🎓
+# DoctorPhi v1 🏥🧑‍🎓
 
-DoctorGPT v1 is a lightweight, domain-adapted large language model designed to answer medical questions reliably. Built on top of Microsoft's `phi-2` model, it combines efficient inference (4-bit quantization) with high-precision output filtering using advanced NLP evaluation techniques like BERTScore. It is optimized to run on Google Colab with minimal resources while maintaining high-quality answers.
+DoctorPhi v1 is a lightweight, domain-adapted large language model designed to answer medical questions reliably. Built on top of Microsoft's `phi-2` model, it combines efficient inference (4-bit quantization) with high-precision output filtering using advanced NLP evaluation techniques like BERTScore. It is optimized to run on Google Colab with minimal resources while maintaining high-quality answers.
 
 ---
 
-## 🚀 What is DoctorGPT v1?
-DoctorGPT v1 is an experimental QA system fine-tuned and optimized for:
+## 🚀 What is DoctorPhi v1?
+DoctorPhi v1 is an experimental QA system fine-tuned and optimized for:
 - Understanding natural medical questions
 - Providing concise and medically-relevant answers
 - Running on affordable or free hardware (Colab GPU)
@@ -61,7 +61,7 @@ print("Precision:", P.mean().item())
 ---
 
 ## 📊 Results
-DoctorGPT v1 achieves:
+DoctorPhi v1 achieves:
 - **Precision**: 0.8613
 - **Recall**: 0.8962
 - **F1 Score**: 0.8764
@@ -78,7 +78,7 @@ DoctorGPT v1 achieves:
 ---
 
 ## 💡 How to Use
-1. Open `DoctorGPT_V1.ipynb` in Colab
+1. Open `DoctorPhi_V1.ipynb` in Colab
 2. Run all cells
 3. Add your own test questions or evaluate new samples
 4. Explore generated plots and BERTScore metrics
@@ -88,7 +88,7 @@ DoctorGPT v1 achieves:
 ## 🔭 Future Roadmap
 - Scale fine-tuning to full MedQuAD + PubMedQA
 - Add explainability (LIME, Grad-CAM)
-- Deploy DoctorGPT on Hugging Face Spaces
+- Deploy DoctorPhi on Hugging Face Spaces
 - Use UMLS concepts to enrich medical context
 
 ---
