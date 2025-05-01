@@ -1,7 +1,7 @@
-# DoctorPhiv1 - Full Technical Documentation
+# DoctorPhi v1 - Full Technical Documentation
 
 ## 🔍 Introduction
-DoctorPhiv1 is a lightweight, research-focused QA model fine-tuned and evaluated for the medical domain. Using Microsoft’s `phi-2` as a base, this project demonstrates how a relatively small LLM can perform reliably on health-related questions by applying precise post-processing and targeted evaluation methods.
+DoctorPhi v1 is a lightweight, research-focused QA model fine-tuned and evaluated for the medical domain. Using Microsoft’s `phi-2` as a base, this project demonstrates how a relatively small LLM can perform reliably on health-related questions by applying precise post-processing and targeted evaluation methods.
 
 ---
 
